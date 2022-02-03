@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+#hadak{
+    font-size: 15px;
+    width: 24%;
+}
+body{
+        background-image: url("maxresdefault\ \(1\).jpg");
+        padding-left: 200px;
+        background-size: cover;
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+h2{
+    text-align: center; 
+}
+strong{
+    color: #E30D1C;
+}
+form{
+    text-align: center;
+}
+#nv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#an{
+    margin-left: 18px;
+}
+#select{
+    padding: 0px 204px 1px 18px;
+    margin-bottom: 10px;
+}
+#btn{
+    margin-left: 270px;
+    background-color: #E30D1C;
+    color: white;
+    border: none;
+    padding: 4px 11px 5px 10px;
+    border-radius: 5px;
+}
+
+#tr1{
+    border: black;
+    border: solid;
+    text-align: center;
+}
+#td1{
+    border: black;
+    border: solid;
+}
+table{
+    border: solid;
+    padding: 10px;
+}
+th{
+    padding: 10px;
+}
+b{
+    padding-left: 10px;
+}

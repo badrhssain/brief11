@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solidao</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <h1>المكتب الوطني للكهرباء و الماء الصالح للشرب</h1>
+    <h2>Office National de l'<strong>Electricité</strong> Et d'<strong>Eau</strong> Potable</h2>
+    <form action="solidao.php" method="post">
+        <label for="IndexAncien">Entre l'Ancien valeur:</label>
+        <input id="an" type="text" name="IndexAncien" ><br>
+        <label for="IndexNouveau">Entre le Nouveau valeur:</label>
+        <input id="nv" type="text" name="IndexNouveau"><br>
+        
+        <select id="select">
+            <option disabled selected hidden value >type de Calibre</option>
+            <option value="5-10">5-10</option>
+            <option value="15-20">15-20</option>
+            <option value=">30"> >30</option>
+        </select><br>
+        <button id="btn" onclick="Envoyer();" name="btn">Envoyer</button>
+    </form>
+    <table>
+       <th id="kh"></th>
+       <th id="kh"></th>
+       <th id="kh"></th>
+       <th id="kh"></th>
+       <th id="kh"></th>
+    </table>
+
+</body>
+</html>
